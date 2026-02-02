@@ -127,3 +127,19 @@ Run it locally (Python + numpy/scipy/mido):
 ```bash
 pip install numpy scipy mido  # if needed
 python enhanced_tribal_ritual.py
+
+## Enhanced Tribal Ritual Sound Generator 🥁🌑
+
+This script procedurally generates immersive ancient/tribal audio: layered polyrhythmic drums (Euclidean distribution for authentic feel), pitch-bending talking drums, log thumps, sharp slaps, shakers, frame drums, plus evolving multi-voice overtone chants with formant "word" shifts.
+
+Key upgrades:
+- **More drum types** — talking drum glides + log thumps
+- **Real polyrhythms** — Euclidean patterns across layers (e.g., 5-on-16, 4-on-12)
+- **Chant variations** — multi-voice overtones + slow vowel/formant modulation
+- **MIDI export** — basic drum pattern to `tribal_ritual.mid` (import to any DAW)
+- **Live loop potential** — uncomment pygame lines for real-time playback (if pygame installed)
+
+Run it:
+```bash
+pip install numpy scipy mido  # (pygame optional for live)
+python enhanced_tribal_ritual.py

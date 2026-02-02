@@ -108,3 +108,22 @@ stereo = np.column_stack((mix, mix)).astype(np.float32)
 
 wavfile.write('ancient_tribal_ritual.wav', SR, stereo)
 print("Saved: ancient_tribal_ritual.wav – 20s primal ceremony vibes")
+
+## Enhanced Tribal Ritual Sound Generator 🥁🌑
+
+Procedural audio synthesis for ancient/tribal vibes: deep djembes, pitch-bending talking drums, log thumps, polyrhythmic layers (Euclidean style), evolving overtone chants with formant "words," MIDI export, and live loop potential.
+
+### Features
+- Multiple drum types with organic variation
+- True polyrhythms via Euclidean distribution
+- Multi-voice throat-singing simulation (Tuvan/Mongolian-inspired)
+- MIDI rhythm export for DAW use
+- Outputs ~45s WAV file
+
+### The Code
+(See `enhanced_tribal_ritual.py` in this repo)
+
+Run it locally (Python + numpy/scipy/mido):
+```bash
+pip install numpy scipy mido  # if needed
+python enhanced_tribal_ritual.py
